@@ -14,8 +14,8 @@ public class FilmeController {
 
 //POST
     @PostMapping
-    public Filme criarFilme(@RequestBody Filme filme) {
-        return service.adicionarFilme(filme);
+    public List<Filme> criarFilmesEmLote(@RequestBody List<Filme> listaFilmes) {
+        return service.adicionarFilmesEmLote(listaFilmes);
     }
 
 //LISTAR TUDO

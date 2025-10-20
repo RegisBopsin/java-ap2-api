@@ -10,9 +10,9 @@ public class FilmeService {
     private final List<Filme> filmes = new ArrayList<>();
 
 //CREATE
-    public Filme adicionarFilme(Filme filme) {
-        filmes.add(filme);
-        return filme;
+    public List<Filme> adicionarFilmesEmLote(List<Filme> listaFilmes) {
+        filmes.addAll(listaFilmes);
+        return listaFilmes;
     }
 
 //LISTAGEM DE TODOS
