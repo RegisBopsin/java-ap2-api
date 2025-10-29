@@ -3,3 +3,4 @@
 CRUD em java simulando uma API RESTful utilizando 3 camadas de Model, Service e Controller.
 
 Collection das resquisições em arquivo Json incluídos no repositório!
+(Testados no Postman e Insomnia)
